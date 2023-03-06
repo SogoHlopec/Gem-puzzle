@@ -1,3 +1,6 @@
+/*!************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./gem-puzzle/index.css ***!
+  \************************************************************************/
 .body {
   margin: 0 auto;
   max-width: 1200px;
@@ -167,3 +170,5 @@
     font-size: 5rem;
   }
 }
+
+/*# sourceMappingURL=main.css.map*/
