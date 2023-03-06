@@ -1,0 +1,169 @@
+.body {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.ui {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.btn {
+  height: 30px;
+  background-color: rgb(158, 220, 42);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 9px;
+  margin-bottom: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(195, 226, 138);
+}
+
+.sound {
+  width: 60px;
+}
+
+.time {
+  margin-left: 10px;
+}
+
+.moves {
+  margin-left: 10px;
+}
+
+.frameSize {
+  height: 30px;
+}
+
+.main {
+  position: relative;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 50%;
+  height: 600px;
+  background-color: rgb(195, 226, 138);
+  border: 5px solid black;
+  position: relative;
+}
+
+.modalWin {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.574);
+}
+
+.modalResults {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(195, 226, 138, 0.681);
+  cursor: pointer;
+}
+
+.tableResults {
+  text-align: center;
+  background-color: rgb(195, 226, 138);
+  width: 80%;
+}
+
+.modalWinText {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.item {
+  box-sizing: border-box;
+  border-radius: 10%;
+  box-shadow: inset 0 0 0 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background-color: aquamarine;
+  cursor: pointer;
+  position: absolute;
+  transition: all 0.3s;
+}
+
+.frameSize {
+  font-size: 1rem;
+}
+
+
+@media screen and (max-width: 1369px) {
+  .wrapper {
+    height: 500px;
+  }
+
+  .item {
+    font-size: 3rem;
+  }
+
+  .ui {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .item {
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 769px) {
+  .wrapper {
+    max-width: 50%;
+    height: 400px;
+  }
+
+  .ui {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .item {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .wrapper {
+    max-width: 300px;
+  }
+
+  .ui {
+    font-size: 5rem;
+  }
+}
