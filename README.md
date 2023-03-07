@@ -12,12 +12,13 @@ Gem Puzzle is a classic puzzle game. The object of the puzzle is to place the ti
 * CSS3
 * JavaScript
 * Webpack 5
+* Audio
+* Local storage
 
 ## Features:
 * SPA
 * All html is built with javascript
 * Adaptive
-* Audio
-* Save and load game state using local storage
+* Save and load game state
 * CSS animation
 * Shuffling algorithm so that the puzzle can be solved
