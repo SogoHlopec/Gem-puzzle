@@ -15,6 +15,7 @@ Gem Puzzle is a classic puzzle game. The object of the puzzle is to place the ti
 
 ## Features:
 * SPA
+* All html is built with javascript
 * Adaptive
 * Audio
 * Save and load game state using local storage
