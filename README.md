@@ -22,3 +22,6 @@ Gem Puzzle is a classic puzzle game. The object of the puzzle is to place the ti
 * Save and load game state
 * CSS animation
 * Shuffling algorithm so that the puzzle can be solved
+
+## Desktop
+![desktop](https://github.com/SogoHlopec/Gem-puzzle/blob/main/desktop.jpg)
